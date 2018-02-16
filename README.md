@@ -11,10 +11,12 @@ A nodejs base file to enable continuous building upon.
 cd base build repo
 
 # installs project dependencies
+npm init
 npm install
 
 # starts the server
-DEBUG=base repo file:* npm start
+
+npm start
 
 
 Visit [http://localhost:3000](http://localhost:3000) to view the application.
