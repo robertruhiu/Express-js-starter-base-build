@@ -12,6 +12,7 @@ cd base build repo
 
 # installs project dependencies
 npm init
+
 npm install
 
 # starts the server
